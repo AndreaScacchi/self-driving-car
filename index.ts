@@ -1,5 +1,9 @@
 import { getObstacleEvents } from './computer-vision';
 
-class Car {
+interface AutonomousCar {
     
+}
+
+class Car {
+
 }
