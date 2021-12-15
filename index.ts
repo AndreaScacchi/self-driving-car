@@ -15,3 +15,5 @@ class Car implements AutonomousCar {
         this.isRunning = props.isRunning;
     }
 }
+
+const autonomousCar = new Car({ isRunning: true });
