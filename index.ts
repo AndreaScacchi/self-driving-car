@@ -4,6 +4,6 @@ interface AutonomousCar {
     isRunning?: boolean;
 }
 
-class Car {
+class Car implements AutonomousCar {
 
 }
