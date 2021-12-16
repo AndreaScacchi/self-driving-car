@@ -28,3 +28,4 @@ class Car implements AutonomousCar {
 }
 
 const autonomousCar = new Car({ isRunning: true });
+autonomousCar.respond(getObstacleEvents());
