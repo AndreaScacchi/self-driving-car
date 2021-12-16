@@ -45,6 +45,10 @@ class Car implements AutonomousCar {
         if(!this.isRunning) {
             return console.log('The car is off!');
         }
+
+        Object.keys(events).forEach(eventKey => {
+            
+        })
     }
 }
 
