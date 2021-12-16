@@ -14,7 +14,7 @@ interface Events {
 }
 
 interface Control {
-    
+    execute: (command: string) => void;
 }
 
 class Car implements AutonomousCar {
