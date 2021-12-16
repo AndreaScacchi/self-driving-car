@@ -13,6 +13,10 @@ interface Events {
     [event: string]: boolean;
 }
 
+interface Control {
+    
+}
+
 class Car implements AutonomousCar {
     isRunning;
 
