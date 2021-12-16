@@ -47,7 +47,9 @@ class Car implements AutonomousCar {
         }
 
         Object.keys(events).forEach(eventKey => {
-            
+            if(!events[eventKey]) {
+                return;
+            }
         })
     }
 }
