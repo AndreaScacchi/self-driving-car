@@ -45,5 +45,7 @@ class Car implements AutonomousCar {
     }
 }
 
+const steering = new SteeringControl();
+
 const autonomousCar = new Car({ isRunning: true });
 autonomousCar.respond(getObstacleEvents());
