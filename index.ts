@@ -34,9 +34,11 @@ class SteeringControl implements Steering {
 
 class Car implements AutonomousCar {
     isRunning;
+    steeringControl;
 
     constructor(props: AutonomousCarProps) {
         this.isRunning = props.isRunning;
+        this.steeringControl = props.steeringControl;
     }
 
     respond(events: Events) {
