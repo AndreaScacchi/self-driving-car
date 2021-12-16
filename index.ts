@@ -21,7 +21,9 @@ class Car implements AutonomousCar {
     }
 
     respond(events: Events) {
-
+        if(!this.isRunning) {
+            return console.log('The car is off!');
+        }
     }
 }
 
