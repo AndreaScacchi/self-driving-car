@@ -18,7 +18,7 @@ interface Control {
 }
 
 interface Steering extends Control {
-
+    turn : (direction: string) => void;
 }
 
 class Car implements AutonomousCar {
