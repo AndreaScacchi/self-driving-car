@@ -54,6 +54,10 @@ class Car implements AutonomousCar {
             if(eventKey === 'ObstacleLeft') {
                 this.steeringControl.turn('right');
             }
+
+            if(eventKey === 'ObstacleRight') {
+                this.steeringControl.turn('left');
+            }
         })
     }
 }
