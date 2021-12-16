@@ -17,6 +17,10 @@ interface Control {
     execute: (command: string) => void;
 }
 
+interface Steering {
+    
+}
+
 class Car implements AutonomousCar {
     isRunning;
 
